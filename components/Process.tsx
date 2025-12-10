@@ -9,7 +9,7 @@ const Process: React.FC = () => {
         <div className="text-center mb-16">
           <span className="text-brand-600 font-bold tracking-wide uppercase text-sm mb-2 block">سادگی در عمل</span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">
-            چطور با <span className="text-brand-600">LineBuy</span> سفارش دهیم؟
+            چطور با <span className="text-brand-600">Buy3</span> سفارش دهیم؟
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             مراحل خرید از خارج بسیار ساده‌تر از چیزی است که فکر می‌کنید.

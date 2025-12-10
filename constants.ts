@@ -1,17 +1,18 @@
 import { Feature, NavItem, ProcessStep, SupportedSite, ServiceItem, BlogPost, FAQItem } from './types';
 
-export const APP_NAME = "LineBuy";
+export const APP_NAME = "Buy3";
 export const CO_FOUNDER = "علی اویسی";
 export const PHONE_NUMBER = "09123772681";
 export const PHONE_NUMBER_DISPLAY = "09123772681";
-export const EMAIL = "info@linebuy.ir";
+export const EMAIL = "info@buy3.ir";
 
 export const WHATSAPP_LINK = (message: string) => `https://wa.me/989123772681?text=${encodeURIComponent(message)}`;
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'خانه (واردات چین)', href: '#china-import' },
+  { label: 'خانه', href: '#hero' },
+  { label: 'روش کار', href: '#process' },
   { label: 'سایت‌ها', href: '#sites' },
-  { label: 'خرید لینک', href: '#hero' }, // Previously Hero, now Link Shopping
+  { label: 'واردات چین', href: '#china-import' },
   { label: 'مزایا', href: '#features' },
   { label: 'خدمات', href: '#services' },
   { label: 'استعلام', href: '#quote' },
@@ -20,8 +21,8 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const HERO_CONTENT = {
-  headline: "لینک کالا را بفرستید، درب منزل تحویل بگیرید",
-  subheadline: "خرید مستقیم از آمازون، ای‌بی و سایت‌های خارجی برای مصرف‌کننده شخصی. بدون نیاز به کارت ارزی و نگرانی‌های گمرکی.",
+  headline: "لینک کالا را بفرستید، درب منزل در ایران تحویل بگیرید",
+  subheadline: "خرید مستقیم از آمازون، ای‌بی، علی‌اکسپرس، ۱۶۸۸ و علی‌بابا بدون نیاز به کارت ارزی و نگرانی‌های گمرکی. ساده‌ترین راه واردات کالا به ایران.",
   cta: "شروع ثبت سفارش",
   ctaSub: "ارتباط مستقیم با کارشناسان (۰۹۱۲۳۷۷۲۶۸۱)"
 };
@@ -29,23 +30,23 @@ export const HERO_CONTENT = {
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     id: 1,
-    title: "۱. ارسال لینک/سفارش",
-    description: "لینک کالا یا درخواست سورسینگ خود را در واتساپ برای ما بفرستید."
+    title: "۱. ارسال لینک",
+    description: "لینک کالای مورد نظر از سایت خارجی را در واتساپ یا فرم سایت برای ما بفرستید."
   },
   {
     id: 2,
-    title: "۲. استعلام قیمت",
-    description: "قیمت نهایی شامل خرید، حمل و ترخیص به تومان محاسبه و اعلام می‌شود."
+    title: "۲. محاسبه قیمت",
+    description: "ما هزینه خرید، حمل و گمرک را محاسبه کرده و قیمت نهایی تومانی را اعلام می‌کنیم."
   },
   {
     id: 3,
-    title: "۳. خرید و ارسال",
-    description: "پس از پرداخت، کالا توسط دفاتر چین یا دبی خریداری و به سمت ایران حمل می‌شود."
+    title: "۳. پرداخت و خرید",
+    description: "پس از تایید و واریز ریالی شما، کالا توسط دفاتر خارجی ما خریداری می‌شود."
   },
   {
     id: 4,
     title: "۴. تحویل در ایران",
-    description: "کالا پس از ترخیص قانونی، درب انبار یا منزل شما تحویل داده می‌شود."
+    description: "کالا حمل، ترخیص و درب منزل یا محل کار شما در ایران تحویل داده می‌شود."
   }
 ];
 
@@ -133,7 +134,7 @@ export const SERVICES: ServiceItem[] = [
 export const FAQS: FAQItem[] = [
   {
     question: "آیا برای ثبت سفارش حداقل مبلغی وجود دارد؟",
-    answer: "خیر، در LineBuy محدودیتی برای حداقل مبلغ خرید وجود ندارد. اما توجه داشته باشید که هزینه‌های پایه حمل و نقل ممکن است برای کالاهای بسیار ارزان (زیر ۱۰ دلار) مقرون‌به‌صرفه نباشد."
+    answer: "خیر، در Buy3 محدودیتی برای حداقل مبلغ خرید وجود ندارد. اما توجه داشته باشید که هزینه‌های پایه حمل و نقل ممکن است برای کالاهای بسیار ارزان (زیر ۱۰ دلار) مقرون‌به‌صرفه نباشد."
   },
   {
     question: "چه کالاهایی را نمی‌توانید وارد کنید؟",
@@ -164,9 +165,9 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     id: 2,
-    title: "راهنمای ثبت سفارش از آمازون برای ایران با LineBuy",
+    title: "راهنمای ثبت سفارش از آمازون برای ایران با Buy3",
     outlines: [
-      { heading: "چالش‌های خرید مستقیم", summary: "عدم ارسال به ایران و نیاز به کردیت کارت، موانع اصلی ایرانیان هستند که LineBuy آن‌ها را حل کرده است." },
+      { heading: "چالش‌های خرید مستقیم", summary: "عدم ارسال به ایران و نیاز به کردیت کارت، موانع اصلی ایرانیان هستند که Buy3 آن‌ها را حل کرده است." },
       { heading: "مراحل گام‌به‌گام", summary: "کافیست محصول را در آمازون پیدا کنید، لینک را کپی کنید و برای ما بفرستید. بقیه مراحل با ماست." }
     ]
   },
@@ -182,7 +183,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 4,
     title: "مراحل قانونی و ترخیص کالا (به زبان ساده)",
     outlines: [
-      { heading: "مسیر سبز، زرد و قرمز گمرک", summary: "کالاها پس از ورود به گمرک ارزیابی می‌شوند. LineBuy با تخصص خود تلاش می‌کند کالاها در سریع‌ترین زمان ترخیص شوند." },
+      { heading: "مسیر سبز، زرد و قرمز گمرک", summary: "کالاها پس از ورود به گمرک ارزیابی می‌شوند. Buy3 با تخصص خود تلاش می‌کند کالاها در سریع‌ترین زمان ترخیص شوند." },
       { heading: "کالاهای مجاز و مشروط", summary: "آشنایی با کالاهایی که نیاز به مجوزهای خاص (مثل مجوز بهداشت یا مخابرات) دارند ضروری است." }
     ]
   },

@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-slate-800 pt-8 flex flex-col-reverse md:flex-row justify-between items-center gap-6 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} LineBuy. تمامی حقوق برای علی اویسی محفوظ است.</p>
+          <p>© {new Date().getFullYear()} Buy3. تمامی حقوق برای علی اویسی محفوظ است.</p>
           <div className="flex items-center gap-6 font-medium">
              <a href="#" className="hover:text-slate-300 transition-colors">قوانین و مقررات</a>
              <a href="#" className="hover:text-slate-300 transition-colors">حریم خصوصی</a>
