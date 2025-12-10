@@ -17,10 +17,12 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <main>
-        <Hero />
-        <Process />
-        <SupportedSites />
+        {/* China Import is now the Hero Section */}
         <ChinaImport />
+        <SupportedSites />
+        <Process />
+        {/* Old Hero is now a Global Shopping feature section */}
+        <Hero />
         <Features />
         <Services />
         <QuoteForm />

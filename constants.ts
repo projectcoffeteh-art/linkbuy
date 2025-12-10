@@ -9,10 +9,9 @@ export const EMAIL = "info@linebuy.ir";
 export const WHATSAPP_LINK = (message: string) => `https://wa.me/989123772681?text=${encodeURIComponent(message)}`;
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'خانه', href: '#hero' },
-  { label: 'روش کار', href: '#process' },
+  { label: 'خانه (واردات چین)', href: '#china-import' },
   { label: 'سایت‌ها', href: '#sites' },
-  { label: 'واردات چین', href: '#china-import' },
+  { label: 'خرید لینک', href: '#hero' }, // Previously Hero, now Link Shopping
   { label: 'مزایا', href: '#features' },
   { label: 'خدمات', href: '#services' },
   { label: 'استعلام', href: '#quote' },
@@ -21,8 +20,8 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const HERO_CONTENT = {
-  headline: "لینک کالا را بفرستید، درب منزل در ایران تحویل بگیرید",
-  subheadline: "خرید مستقیم از آمازون، ای‌بی، علی‌اکسپرس، ۱۶۸۸ و علی‌بابا بدون نیاز به کارت ارزی و نگرانی‌های گمرکی. ساده‌ترین راه واردات کالا به ایران.",
+  headline: "لینک کالا را بفرستید، درب منزل تحویل بگیرید",
+  subheadline: "خرید مستقیم از آمازون، ای‌بی و سایت‌های خارجی برای مصرف‌کننده شخصی. بدون نیاز به کارت ارزی و نگرانی‌های گمرکی.",
   cta: "شروع ثبت سفارش",
   ctaSub: "ارتباط مستقیم با کارشناسان (۰۹۱۲۳۷۷۲۶۸۱)"
 };
@@ -30,23 +29,23 @@ export const HERO_CONTENT = {
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     id: 1,
-    title: "۱. ارسال لینک",
-    description: "لینک کالای مورد نظر از سایت خارجی را در واتساپ یا فرم سایت برای ما بفرستید."
+    title: "۱. ارسال لینک/سفارش",
+    description: "لینک کالا یا درخواست سورسینگ خود را در واتساپ برای ما بفرستید."
   },
   {
     id: 2,
-    title: "۲. محاسبه قیمت",
-    description: "ما هزینه خرید، حمل و گمرک را محاسبه کرده و قیمت نهایی تومانی را اعلام می‌کنیم."
+    title: "۲. استعلام قیمت",
+    description: "قیمت نهایی شامل خرید، حمل و ترخیص به تومان محاسبه و اعلام می‌شود."
   },
   {
     id: 3,
-    title: "۳. پرداخت و خرید",
-    description: "پس از تایید و واریز ریالی شما، کالا توسط دفاتر خارجی ما خریداری می‌شود."
+    title: "۳. خرید و ارسال",
+    description: "پس از پرداخت، کالا توسط دفاتر چین یا دبی خریداری و به سمت ایران حمل می‌شود."
   },
   {
     id: 4,
     title: "۴. تحویل در ایران",
-    description: "کالا حمل، ترخیص و درب منزل یا محل کار شما در ایران تحویل داده می‌شود."
+    description: "کالا پس از ترخیص قانونی، درب انبار یا منزل شما تحویل داده می‌شود."
   }
 ];
 
